@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F1C40F;
+	font-family: arial;
+	background-size: contain;
+	background-position: center;
+	/* background-repeat: no-repeat;*/
+}
+
+.container {
+	width: 1200px;
+	margin: 10px auto;
+}
+
+.superior {
+	background: #000000;
+	overflow: hidden;
+	border-radius: 100px;
+	padding-left: 20px;
+}
+
+.logo {
+	float: left;
+	width: 150px;
+	height: 100%;
+	padding-right: 50px;
+	padding: 20px;
+	background-size: 100% auto;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 20px;
+	padding: 30px;
+}
+
+#menu #item {
+	float: left;
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu #item a {
+	color: white;
+	padding: 18px 33px;
+	display: block;
+	text-decoration: none;
+}
+
+#item a:hover {
+	background: yellow;
+}
+
+#menu #desple {
+	display: none;
+}
+
+#menu #item:hover #desple {
+	display: block;
+}
+
+/* Estilos para body Cajas de información */
+.baner {
+	margin: 2px;
+}
+
+.informacion {
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.caja1 {
+	float: left;
+	width: 325px;
+	margin: 10px;
+	text-align: center;
+}
+
+.caja2 {
+	float: left;
+	width: 325px;
+	margin: 10px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+.caja3 {
+	float: left;
+	width: 325px;
+	margin: 10px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+.nomgrupo {
+	background: white;
+	color: black;
+}
+
+.grupos {
+	padding: 15px 0;
+}
+
+.efecto:hover {
+	opacity: 0.2;
+}
+
+.boton {
+	margin: 12px;
+	padding: 12px 20px;
+	background: blue;
+	border-radius: 10px;
+}
+
+.finpag {
+	background: white;
+	overflow: hidden;
+	width: 1200px;
+	height: 300px;
+}
+
+.izq {
+	float: left;
+	width: 500px;
+	padding: 20px;
+}
+
+.der {
+	float: left;
+	width: 500px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.redes {
+	padding: 50px;
+	font-family: fantasy;
+	font-size: 25px;
+}
+
+.titulo {
+	padding: 20px; text-align : center;
+	color: red;
+	text-align: center;
+}
