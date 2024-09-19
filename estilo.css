@@ -24,6 +24,19 @@ body {
 	border-radius: 100px;
 	padding-left: 20px;
 }
+/* Aplicando diseño responsive*/
+@media (max-width: 1200px) {
+	.container {
+		width: 100%; /* Cambiar a ancho completo en pantallas más pequeñas */
+		padding: 0 10px; /* Agregar padding lateral */
+	}
+}
+
+@media (max-width: 768px) {
+	.superior {
+		border-radius: 50px; /* Ajustar el borde redondeado en pantallas medianas */
+	}
+
 
 .logo {
 	float: left;
@@ -111,6 +124,13 @@ body {
 
 .efecto:hover {
 	opacity: 0.2;
+}
+
+@media (max-width: 480px) {
+	.titulo {
+		font-size: 20px; /* Reducir tamaño de fuente del título */
+		padding: 10px; /* Ajustar padding */
+	}
 }
 
 .boton {
