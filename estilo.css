@@ -13,6 +13,14 @@ body {
 	/* background-repeat: no-repeat;*/
 }
 
+@media screen and (max-width: 480px) {
+	.contenedor {
+	width: 100%;
+	padding: 10px;
+	}
+	}
+	
+
 .container {
 	width: 1200px;
 	margin: 10px auto;
@@ -24,18 +32,6 @@ body {
 	border-radius: 100px;
 	padding-left: 20px;
 }
-/* Aplicando diseño responsive*/
-@media (max-width: 1200px) {
-	.container {
-		width: 100%; /* Cambiar a ancho completo en pantallas más pequeñas */
-		padding: 0 10px; /* Agregar padding lateral */
-	}
-}
-
-@media (max-width: 768px) {
-	.superior {
-		border-radius: 50px; /* Ajustar el borde redondeado en pantallas medianas */
-	}
 
 
 .logo {
@@ -126,12 +122,7 @@ body {
 	opacity: 0.2;
 }
 
-@media (max-width: 480px) {
-	.titulo {
-		font-size: 20px; /* Reducir tamaño de fuente del título */
-		padding: 10px; /* Ajustar padding */
-	}
-}
+
 
 .boton {
 	margin: 12px;
